@@ -1103,9 +1103,11 @@ footer {
 }
 
 .leftside img {
-  width: 30%; /* Adapte la largeur de l'image à celle de la colonne */
-  max-width: 300px; /* Limite la taille maximale de l'image */
+  width: 80%; /* Adapte la largeur de l'image à celle de la colonne */
   height: auto; /* Garde le ratio d'aspect original de l'image */
+  border-radius: 10px;
+  border: 3px solid;
+  border-color: #FFFFFB;
 }
 
 .rightside {
